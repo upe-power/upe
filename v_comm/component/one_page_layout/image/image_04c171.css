@@ -1,0 +1,18 @@
+.image_04_page{/* -webkit-background-size: cover; background-size: cover;background-attachment: fixed; background-image: url(../images/home_banner_bg_1.jpg); background-position: center center;*/ width: 100%; clear: both; padding-top: 0px; padding-bottom: 0px; float: left; overflow: hidden; }
+.image_04_box{ width: 80%; clear: both; padding: 0px; margin-top: px; margin-right: 10%; margin-bottom: 0px; margin-left: 10%; }
+
+.image_04_page .tp-caption.BigBold-Button, .BigBold-Button a{color: rgba(255, 255, 255, 1);font-size: 15px;}
+
+.image_04_page .tp-caption.BigBold-Title{ font-size: 68px; line-height: 70px; }
+
+@media screen and (max-width: 1680px) {.image_04_page .tp-caption.BigBold-Title{ font-size: 68px; line-height: 70px; }
+	}
+
+@media screen and (max-width: 1366px) {.image_04_page .tp-caption.BigBold-Title{ font-size: 56px; line-height: 60px; }
+	}
+	
+@media screen and (max-width: 736px) {.image_04_page .tp-caption.BigBold-Title{ font-size: 56px; line-height: 60px; }
+	}
+
+@media screen and (max-width: 480px) {.image_04_page .tp-caption.BigBold-Title{ font-size: 56px; line-height: 60px; }
+	}

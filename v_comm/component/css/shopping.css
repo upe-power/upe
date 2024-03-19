@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*優惠群組*/
+.discount_group{ padding: 0px; }
+.discount_style{ background-color: rgba(255, 254, 229, 1); width: 100%; padding-top: 10px; padding-right: 0px; padding-bottom: 10px; padding-left: 0px; text-align: right; clear: both; border-top-width: 1px; border-top-style: solid; border-top-color: #C0C0C0; }
+.discount_style strong{ font-weight: normal;}
+.discount_style span{  }
+.other_discount_title{ position: relative; margin-right: 0px; padding: 3px; color: #fff; letter-spacing: 1px; border-radius: 3px; background-color: #666!important; font-style: normal; margin-left: 0px; font-size: 13px; }
+
+.discount_style_th{padding: 5px;}
+.discount_style_td{padding: 5px;}
+@media screen and (max-width: 980px){
+	.discount_style{ text-align: left;padding: 8px; }
+	.discount_style_td{ display: inline-block; }
+}
+
+/*訂單查詢*/
+.detail_page{ width: 100%; clear: both; float: left; font-size: 15px; color: #333; }
+.order_search_form_page{ margin-top: 10px; margin-bottom: 10px; border-top-width: 1px; border-bottom-width: 1px; border-top-style: dotted; border-bottom-style: dotted; border-top-color: #999; border-bottom-color: #999; display: inline-block; width: 100%; clear: both; float: left; padding-top: 10px; padding-right: 0px; padding-bottom: 10px; padding-left: 0px; }
+.order_search_form_title{}
+.order_search_form_txt{}
+.order_search_form_submit{}
+
+.number_pages{ padding-bottom: 10px; }
+.number_pages div{ padding-right: 0px!important; }
+
+.order_search_page{ margin-bottom: 50px; }
+.order_search_page .search_txt{   padding: 8px;}
+.order_search_box{}
+.order_search_box .title{ padding: 8px; border-top-width: 1px; border-top-style: dotted; border-top-color: #999; }
+.order_search_box .title span.txt{ }
+
+.red{ color: #C00; }
+.background_black{ background-color: #EFEFEF; }
+.background_white{ background-color: #F8F8F8; }
+
+.order_search_list{ margin-bottom: 50px; }
+.order_search_list td{ padding: 8px; }
+.order_search_list td.total_amount{ border-bottom-width: 1px; border-bottom-style: dotted; border-bottom-color: #999;  }
+.order_search_list td.total_amount strong{font-size: 18px;}
+.order_search_list td.total_amount span{  }
+.order_search_list td.discounted_txt{ border-bottom-width: 1px; border-bottom-style: dotted; border-bottom-color: #999; }
+.order_search_list td.discounted_txt strong{  }
+.order_search_list td.discounted_txt span{ }
+.order_search_list td.discounted_price{ border-bottom-width: 1px; border-bottom-style: dotted; border-bottom-color: #999; }
+.order_search_list td.discounted_price strong{  }
+.order_search_list td.discounted_price span{  }
+.order_search_list td.shipping_costs{ border-bottom-width: 1px; border-bottom-style: dotted; border-bottom-color: #999;}
+
+/*pg_info*/
+.pg_info_page{ width: 97%; font-size: 16px; }
+.pg_info_page tr{  }
+.pg_info_page th{padding: 8px;}
+.pg_info_page td{ padding: 8px; }
+.pg_info_page td.title{ background-color: #D1D1D1; padding-top: 8px; padding-right: 8px; padding-bottom: 8px; padding-left: 8px; font-size: 15px; }
+
+/*購 物 明 細*/
+.shopping_cart_page * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+.shopping-cart-box{padding: 20px; background-color: #fff; border-radius: 4px; -webkit-box-shadow: none; box-shadow: none; border: 1px solid #ddd; display: inline-block; width: 100%;  }
+.main-title{ font-size: 22px; padding-top: 0px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; }
+._td_title{ display: none; }
+
+.shopping-product-box{ font-size: 16px; margin-bottom: 20px; clear: both; width: 100%; margin-right: 0%; margin-left: 0%; background-color: #fff; border-radius: 4px; -webkit-box-shadow: none; box-shadow: none; border: 1px solid #C0C0C0; display: table; }
+.shopping-product-title{ clear: both; padding: 10px; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #C0C0C0; font-weight: bold;}
+.shopping-product-name{ display: inline-block; }
+.shopping-item-number{ display: inline-block;}
+.shopping-product-th{ background-color: #DDD; border-bottom-width: 0px; border-bottom-style: solid; border-bottom-color: #BDBDBD; width: 100%; display: inline-table; }
+.shopping-product-th span{  display: table-cell; padding: 8px; border-right-width: 1px; border-right-style: solid; border-right-color: #C0C0C0; }
+.shopping-product-td{ width: 100%; display: inline-table; border-top-width: 1px; border-top-style: solid; border-top-color: #BDBDBD;vertical-align: middle;}
+.shopping-product-td span{ vertical-align: middle; display: table-cell; padding: 8px; border-right-width: 1px; border-right-style: solid; border-right-color: #C0C0C0;}
+
+.amount { width: 60px; height: 34px; line-height: 17px; border: 1px solid #d9d9d9; margin-left: 9px; text-align: center; color: #565656; outline: 0; padding-right: 5px; padding-left: 5px; border-radius: 4px;}
+
+.shopping-cart-box .black_style{background-color:#F0F0F0;}
+.shopping-cart-box .white_style{background-color:#E7E7E7;}
+.shopping-cart-box .wide-table-0{width:160px;}
+.shopping-cart-box .wide-table-0 img{width: 100%;}
+.shopping-cart-box .wide-table-1{width: 10%;}
+.shopping-cart-box .wide-table-2{width: 12%;}
+.shopping-cart-box .wide-table-3{width: 12%;}
+.shopping-cart-box .wide-table-4{width: 12%;}
+.shopping-cart-box .wide-table-5{width: 12%;}
+.shopping-cart-box .wide-table-6{width: 12%;}
+.shopping-cart-box .wide-table-7{ border-right-width: 0px; }
+.shopping-cart-box .wide-table-7 input{font-size: 13px;}
+
+.shopping-cart-box .preferential_box{ font-size:16px; padding-top:5px; padding-bottom:5px; clear:both; float:left; width:100%; text-align:right; border-bottom-width:1px; border-bottom-style:solid; border-bottom-color:#BDBDBD; }
+.shopping-cart-box .preferential_box .preferential_txt_th{color:#666;padding:0px;font-weight:normal;}
+.shopping-cart-box .preferential_box .preferential_txt_td{color:#666;padding:5px;font-weight:normal;}
+
+.shopping-cart-box .discounted_prices{font-size:16px;padding-top:5px;padding-bottom:5px; clear:both;float:left;width:100%;text-align:right;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#BDBDBD;}
+.shopping-cart-box .discounted_prices .discounted_th{color:#666;padding:0px;font-weight:normal;margin:0px;}
+.shopping-cart-box .discounted_prices .discounted_td{color:#C00;padding:5px;font-weight:bold;margin:0px;}
+
+.shopping-cart-box .shipping_costs{font-size:16px;padding-top:5px;padding-bottom:5px; clear:both;float:left;width:100%;text-align:right;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#BDBDBD;}
+.shopping-cart-box .shipping_costs .shipping_costs_th{color:#666;padding:0px;font-weight:normal;}
+.shopping-cart-box .shipping_costs .shipping_costs_td{color:#F60;padding:5px;font-weight:bold;}
+
+.shopping-cart-box ._lump_sum{ font-size:18px; padding-top:15px; padding-bottom:10px; clear:both; float:left; width:100%; text-align:right; }
+.shopping-cart-box ._lump_sum .sum_th{padding-right:5px;color:#333;font-weight:normal;padding:5px;}
+.shopping-cart-box ._lump_sum .sum_td{color:#F00;padding:5px;}
+
+.shopping-cart-box .image_box img {border: 0;margin: 0px;padding: 0px;line-height: 0px;display: block;float: left;width: 100%;}
+
+/* 清單頁優惠說明區塊 Tooltip container*/
+.discount_tooltip {cursor:pointer;position: relative; display: inline-block;padding-top: 5px;padding-bottom: 5px;}
+.discount_tooltip .tooltiptext {display: none;visibility: hidden;width: 250px;background-color: #fff;color: #333;padding: 10px;border-radius: 3px;border: 1px outset #CDCDCD;position: absolute;z-index: 1;top: 26px;}
+.discount_tooltip:hover .tooltiptext {display: block;visibility: visible;}
+.discount_tooltip .global_discount_description_box{color: #333;padding: 0px;text-align:left;}
+.discount_tooltip:before{ content:"\f0a2"; font-family: FontAwesome; font-size: 15px; font-weight: 400; color: #C30; margin-right: 5px; margin-left: 1px; /*border-radius: 15px; background-color: #E3E3E3; */}
+.discount_tooltip .tooltiptext::before{content: " ";border-style: solid;border-width: 0 8px 8px 8px;border-color: transparent transparent #d32f2f transparent;position: absolute;left: 0%;transform: translateY(-50%);margin-top: -14px;}
+
+
+/*頁面右下方浮動購物圖示*/
+body a #shoppingCart{ border:2px solid rgba(255, 146, 0, 1); -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; width:60px; right:10px; bottom:70px; position:fixed; z-index:10000000; background-color: #ff9200; background-image: url(../images/shopping_cart_new.png); background-repeat: no-repeat; background-position: center top; margin: 0px; padding: 0px; height: auto; }
+body a #shoppingCart_Quantity{ text-align: center; font-family: Arial, Helvetica, sans-serif; font-size: 13px; position: absolute; background-color: #C00; -webkit-border-radius: 18px; -moz-border-radius: 18px; border-radius: 18px; top: -10px; right: -10px; color: #ff0; line-height: normal; padding-top: 5px; padding-right: 8px; padding-bottom: 5px; padding-left: 8px; height: auto; width: auto; }
+body a #shoppingCart_price{ margin-top: 46px; color: #ff0; text-align: center; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 16px; padding-top: 3px; padding-bottom: 3px; }
+body a #shoppingCart_Checkout{ color: #FFF; border-top-width: 1px; border-top-style: solid; border-top-color: rgba(255, 255, 255, 0.3); text-align: center; font-size: 12px; }
+
+@media screen and (max-width:980px){
+.shopping-cart-box{padding: 10px; }
+.shopping-product-box{ font-size: 15px;border-radius: 0px;}
+.shopping-product-title{  padding: 0px;background-color: #FFF;font-weight: normal;}
+.shopping-product-title .free_shipping{position: absolute;padding: 8px;font-size: 15px;}
+.shopping-cart-box ._td_title{display: inline-block;width: 100px;background-color: #f5f5f5;padding: 8px;border-right: 1px solid #dddddd;margin-right: 8px;font-weight: normal;}
+.shopping-product-th{display: none; }
+.shopping-product-td span{width: 100%!important; }
+.shopping-cart-box .wide-table-0{text-align: center;}
+.shopping-cart-box .wide-table-7{text-align: center;padding: 10px;}
+.shopping-cart-box .wide-table-3 .amount{margin-left: 0px;}
+.shopping-product-name{ display: block;border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #C0C0C0;}
+.shopping-item-number{ display: inline-block;border-bottom-width: 0px; border-bottom-style: solid; border-bottom-color: #C0C0C0;}
+.shopping-product-name .image_box { display: inline; position: relative; }
+.shopping-product-name .image_box a{ color: #fff; }
+.shopping-product-name {background-color: #333;color: #fff;}
+.shopping-product-name ._td_title{background-color: #333;color: #fff;}
+.shopping-product-td span{padding: 0px; width: 100%; clear: both; display: inline-block; border-right-width: 0px; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #C0C0C0; }
+.main-title{ font-size: 18px; padding-right: 5px; padding-bottom: 10px; padding-left: 5px; }
+.shopping-cart-box .wide-table-7{border-bottom-width: 0px;}
+.shopping-cart-box .black_style {background-color: #FFF;}
+.shopping-cart-box .preferential_box{ font-size:13px;}
+.shopping-cart-box .discounted_prices{font-size:13px;}
+.shopping-cart-box .shipping_costs{font-size:13px;}
+.shopping-cart-box ._lump_sum{ font-size:15px; }
+}
+.prod_group .discount_tooltip{ background-image: url(../images/sales_icon_1.png); background-repeat: no-repeat; background-position: left center; }
+article.sub_productpic_box .discount_tooltip{ background-image: url(../images/sales_icon_1.png); background-repeat: no-repeat; background-position: left center; }
+.p_group_a .discount_tooltip{ background-image: url(../images/sales_icon_1.png); background-repeat: no-repeat; background-position: left center; font-size: 13px; }
+
+/*運費*/
+.select_style{padding:5px 4px;border-radius: 4px;}
+.free_shipping{font-size:13px; color: #F60; padding-left: 5px;}
+.freight_box{font-size: 15px; padding-top: 15px; padding-bottom: 5px; clear: both; float: left; width: 99%; text-align: right;}
+.freight_box_title{font-size: 16px;font-weight: bold;}
+.freight_amount_box{padding-top:10px; padding-bottom:10px; color: #F60;font-weight: bold;}
+.method_detail_box{padding-top:5px;padding-bottom: 10px; display: contents;}
+.method_instructions{padding-bottom:10px; float: right;}
+.carrier_list, .receiving_group, .receiving_location {padding:5px 4px;border-radius: 4px;}
+
+.question_sign_tooltip {cursor:pointer;position: relative; display: inline-block;padding-top: 5px;padding-bottom: 5px;}
+.question_sign_tooltip:before {content: " "; width:43px; height:20px; background-image: url(../images/question-circle.png); background-size: 100% 100%;position: absolute; top: -5px; left:-7px;}
+.question_sign_tooltip .tooltiptext {display: none;z-index:100;visibility: hidden;width: 250px;background-color: #fff;color: #333;padding: 10px;border-radius: 3px;border: 1px outset #CDCDCD;position: absolute;top: 22px;left: -120px;}
+.question_sign_tooltip:hover .tooltiptext {display: block;visibility: visible;}
+.question_sign_tooltip .tooltiptext::before{content: " ";border-style: solid;border-width: 0 8px 8px 8px;border-color: transparent transparent #d32f2f transparent;position: absolute;left: 50%;transform: translateY(-50%);margin-top: -14px;}
+
+.question_sign_tooltip .description_box{color: #333;padding: 0px;text-align:left; font-weight: normal;}
+.question_sign_tooltip .description_box a:link, .question_sign_tooltip .description_box a:visited{color: #007bff;}
+.question_sign_tooltip .description_box a:hover{color: #0056b3; text-decoration: underline;}

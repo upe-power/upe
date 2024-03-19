@@ -1,0 +1,5 @@
+@charset "utf-8";
+/* CSS Document */
+
+.customize_block_page{ width: 100%; clear: both;  float: left;   position: relative; }
+.customize_block_box{ width: 80%; clear: both; margin-right: 10%; margin-left: 10%; margin-top: 0px; margin-bottom: 0px; padding-top: 50px; padding-right: 0px; padding-bottom: 50px; padding-left: 0px; display: block; float: left;  }

@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+.type_04_page { width: 100%; clear: both; float: left; background-color: #E1E1E1; position: relative; z-index: 10;  padding-top: 0px;padding-bottom: 0px;}
+.type_04_box { width: 80%; clear: both; margin-right: 10%; margin-left: 10%; margin-top: 0px; margin-bottom: 40px; display: block; float: left; padding: 0px; }
+.type_04_page .area_title_box{ margin-top: 40px; }
+
+@media all and (min-width:768px){.type_04_page .type_04_box .content_box .row{ display: flex; }.type_04_page .type_04_box .content_box .row .col-md-3.col-sm-3{display: flex;}}
+
+.type_04_page .type_04_box .content_box { padding-top: 20px; padding-bottom: 0px; line-height: normal; width: 100%; display: block; clear: both; float: left; position: relative; z-index: 10; }
+.type_04_page .type_04_box .type_04_one_box { clear: both; float: left; width: 100%; padding-top: 3%; padding-bottom: 20px; background-color: rgba(0, 0, 0, 0.10); margin-bottom: 30px; }
+.type_04_page .type_04_box .photo_box { clear: both; float: left; width: 94%; margin-right: 3%; margin-left: 3%; margin-bottom: 10px; }
+.type_04_page .type_04_box .photo_box img { clear: both; float: left; width: 100%; height: auto; }
+.type_04_page .type_04_box .title_box { float: left; display: block; clear: both; width: 100%; text-align: center; padding: 10px 20px; }
+.type_04_page .type_04_box .title_box strong { text-shadow: 2px 2px 0px rgba(0,0,0,0.1); font-size: 24px; color: #333; display: block; text-transform: uppercase; font-weight: 900; }
+.type_04_page .type_04_box .sub_title_box { float: left; display: block; clear: both; width: 100%; text-align: center; padding: 10px 20px; }
+.type_04_page .type_04_box .sub_title_box strong { font-size: 18px; color: #555; display: block; font-weight: normal; }
+
+.type_04_page .type_04_box .about_txt_box { width: 100%; color: #666; text-align: center; clear: both; float: left; font-size: 16px; padding: 10px 20px; margin: 0%; }
+.type_04_page .type_04_box .all_more_page { position: relative; }
+.type_04_page .type_04_box .all_more_page .btn { background: #004986; color: #FFF; border-top-color: #00325B; border-right-color: #00325B; border-bottom-color: #00325B; border-left-color: #00325B; }
+.type_04_page .type_04_box .all_more_page .btn:hover { background: #2f2a29; color: #FFF; border-color: #2f2a29; }
+
+@media screen and (max-width: 1680px){
+	.type_04_page {padding-top: 0px;padding-bottom: 0px; }
+	.type_04_box{ width: 90%; margin-right: 5%; margin-left: 5%;padding-top: 20px;padding-bottom: 20px;}
+	.type_04_page .area_title_box{ margin-top: 30px; }
+	.type_04_page .type_04_box .title_box strong{ font-size: 24px; }
+	.type_04_page .type_04_box .sub_title_box strong{font-size: 18px;}
+	.type_04_page .type_04_box .about_txt_box{ width: 100%; font-size: 16px;margin: 0%; }
+	}
+@media screen and (max-width: 1280px){
+	.type_04_page {padding-top: 0px;padding-bottom: 0px; }
+	.type_04_box{ width: 90%; margin-right: 5%; margin-left: 5%;padding-top: 20px;padding-bottom: 20px;}
+	.type_04_page .area_title_box{ margin-top: 20px; }
+	.type_04_page .type_04_box .content_box{ padding: 15px; }
+	.type_04_page .type_04_box .title_box strong{ font-size: 22px;}
+	.type_04_page .type_04_box .sub_title_box strong{ font-size: 16px;}
+	}
+@media screen and (max-width: 980px){
+	.type_04_page {padding-top: 0px;padding-bottom: 0px; }
+	.type_04_box{ width: 90%; margin-right: 5%; margin-left: 5%;padding-top: 20px;padding-bottom: 20px;}
+	.type_04_page .area_title_box{ margin-top: 20px; }
+	.type_04_page .type_04_box .content_box{ padding: 10px; }
+	.type_04_page .type_04_box .title_box strong{ font-size: 24px;}
+	.type_04_page .type_04_box .sub_title_box strong{ font-size: 18px;}
+	.type_04_page .type_04_box .about_txt_box{width: 100%; margin-right: 0%; margin-left: 0%;font-size: 16px; }
+	.type_04_box div[class*="col-"] { padding-left: 5px; padding-right: 5px; }
+	
+	}
+@media screen and (max-width: 736px){
+	.type_04_page .type_04_box .title_box,
+	.type_04_page .type_04_box .sub_title_box,
+	.type_04_page .type_04_box .about_txt_box{padding: 5px 10px;}
+	.type_04_page .type_04_box .title_box strong{ font-size: 24px;}
+	.type_04_page .type_04_box .sub_title_box strong{ font-size: 18px;}
+	}
+@media screen and (max-width: 480px){
+	.type_04_page .type_04_box .title_box strong{ font-size: 22px;}
+	.type_04_page .type_04_box .sub_title_box strong{ font-size: 16px;}
+	.type_04_page .type_04_box .about_txt_box{ font-size: 13px; }
+	}
+@media screen and (max-width: 320px){}
