@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*cookies*/
+.cookies-page { padding:0px; color: #666; background-color: rgba(240, 240, 240, 0.2); margin: 0px;font-family: Arial, "微軟正黑體", sans-serif;position: fixed; z-index: 1000000; width: 100%;bottom: 0px;border: 0px solid transparent;border-radius: 0px;}
+.cookies-row { margin-bottom: 0px; border-top: 1px solid rgba(0, 0, 0, 0.1); padding: 10px; }
+.cookies-row .cookies-content { margin-right: 10%; margin-left: 10%; width: 80%;padding-right: 40px; }
+@media screen and (max-width:1680px){.cookies-row .cookies-content { margin-right: 5%; margin-left: 5%; width: 90%; }}
+.cookies-row .cookies-content .cookies-heading { color: #333; font-size: 15px; text-transform: uppercase; font-weight: 600; margin-top: 10px; margin-bottom: 10px; }
+.cookies-row .cookies-content p { font-size: 15px; line-height: 1.58em; }
+.cookies-row .cookies-content a, .cookies-row .cookies-content a:link, .cookies-row .cookies-content a:visited { color: #333; text-decoration: underline; }
+.cookies-row .cookies-content a:hover, .cookies-row .cookies-content a:active { color: #069; }
+.cookies-row .cookies-content button.close { font-size: 30px; color: #000; text-shadow: 0px 1px 0px #fff; filter: alpha(opacity=100); opacity: 1; font-weight: normal; margin-top: -10px;z-index: 2147483647;left: 40px;}
+.cookies-row .cookies-content button.close:hover { color: #069; }
+.cookies-row .cookies-btn { cursor: pointer; }
+.cookies-page { 
+background: linear-gradient(90deg, rgba(220, 220, 220, 0.9)0%, rgba(255, 255, 255, 0.9)100%);
+background: -moz-linear-gradient(90deg, rgba(220, 220, 220, 0.9)0%, rgba(255, 255, 255, 0.9)100%); 
+background: -webkit-linear-gradient(90deg, rgba(220, 220, 220, 0.9)0%, rgba(255, 255, 255, 0.9)100%); 
+background: -o-linear-gradient(90deg, rgba(220, 220, 220, 0.9)0%, rgba(255, 255, 255, 0.9)100%); }
+.cookies-page .close { float: right; font-size: 21px; font-weight: bold; line-height: 1; color: #000; text-shadow: 0px 1px 0px #fff; filter: alpha(opacity=20); opacity: 0.2; }
+.cookies-page .alert-dismissable .close, .cookies-page .alert-dismissible .close { position: relative; top: -2px; right: -21px; color: inherit; }
+.cookies-page button.close { -webkit-appearance: none; padding: 0; cursor: pointer; background: transparent; border: 0; }
+
+/*Privacy and Cookie Policy 內頁*/
+#privacy_page {   }
+.privacy_page_white{ color: #FFF; }
+.privacy_page_black{color: #333;  }
+#privacy_page .privacy_main_title { padding-top: 25px; padding-right: 0px; padding-bottom: 2px; padding-left: 0px; line-height: normal; font-size: 26px; font-weight: bold; width: 100%; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #e0e0e0; clear: both; text-transform: uppercase; color: #000; margin-top: 0px; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; }
+#privacy_page .privacy_box{}
+#privacy_page .privacy_box .privacy_title{ font-size: 20px; margin-top: 20px; margin-bottom: 10px; border-left-width: 5px; border-left-style: solid; border-left-color: #666; padding-left: 5px; font-weight: 600; text-transform: uppercase; }
+#privacy_page .privacy_box .privacy_content{ font-size: 18px; line-height: 1.58em; margin-top: 10px; margin-bottom: 40px; color: #666; }
+#privacy_page .privacy_box .privacy_content .ol{ list-style-type: disc; display: list-item; margin-left: 20px; }
+#privacy_page .privacy_box .privacy_content a:link{color: #069;text-decoration: underline;}
+
+a.footer_policy_link:link{}
+a.footer_policy_link:hover{}
+
+/*隱私權頁 footer*/
+.privacy_footer{}
+.privacy_footer .privacy_main_title{ padding-top: 25px; padding-right: 0px; padding-bottom: 2px; padding-left: 0px; line-height: normal; font-size: 26px; font-weight: bold; width: 100%; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #e0e0e0; clear: both; text-transform: uppercase; color: #000; margin-top: 0px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; }
+.privacy_footer .privacy_title{ font-size: 20px; margin-top: 20px; margin-bottom: 10px; border-left-width: 5px; border-left-style: solid; border-left-color: #666; padding-left: 5px; font-weight: 600; text-transform: uppercase; }
+.privacy_footer .privacy_box{}
+.privacy_footer .privacy_content{ font-size: 18px; line-height: 1.58em; margin-top: 10px; margin-bottom: 40px; color: #666; }
+.privacy_footer .privacy_content p{ padding: 0;margin: 0px; }

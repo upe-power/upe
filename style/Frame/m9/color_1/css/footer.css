@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*頁腳*/
+.footer_body{ display: block; clear: both; float: left; width: 100%; position: relative; }
+.footer_page{ position: relative; display: block; clear: both; width: 100%; float: left; background-color: #e3e4df; margin: 0px; padding-top: 35px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; z-index: 1; }
+.footer_box{ display: block; clear: both; float: left; width: 80%; margin-right: 10%; margin-left: 10%; }
+
+/*powered*/
+#powered{ color: rgba(0, 0, 0, 0.3); margin: 0px; padding: 5px; clear: both; float: left; width: 100%;    font-size: 15px; }
+#powered a, 
+#powered a:link, 
+#powered a:visited { color: rgba(0, 0, 0, 0.3); }
+#powered a:hover { color: rgba(0, 0, 0, 0.8);}
+
+a.footer_policy_link:link{color: rgba(0, 0, 0, 0.3);}
+a.footer_policy_link:hover{color: rgba(0, 0, 0, 0.8);}
+.footer_policy_link_divider{ margin-right: 8px; margin-left: 8px; }
+/*copyright*/
+.copyright_page{ clear: both; width: 100%; background-color: #e3e4df; }
+.copyright_box{ float: left; margin-left: 10px; margin-right: 10px; }
+
+.footer_nav_page{ clear: both; float: left; width: 100%; padding-top:25px; padding-bottom: 15px; background-color: #e3e4df; border-top-width: 1px; border-top-style: solid; border-top-color: #D6D7D0; position: relative; z-index: 1; }
+.footer_nav_box{ clear: both; display: block; width: 80%; padding: 0px; margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; }
+
+.footer_nav_box .footer_icon_page{ width: 57%; float: left;margin-left: 0%; margin-right: 2%; }
+.footer_nav_box .footer_icon_page i{ font-size: 36px; color: #999; }
+ul.footer_icon_box{ margin: 0px; padding: 0px; clear: both; float: left; width: 100%; list-style-image: none; list-style-type: none; display: block; }
+ul.footer_icon_box li.footer_icon{ float: left; width: 20%; display: block; padding: 0px; margin-top: 0px; margin-right: 5%; margin-bottom: 0px; margin-left: 0px; }
+ul.footer_icon_box li.footer_icon h3{ border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #036; padding-bottom: 8px; color: #333; padding-top: 0px; padding-right: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 8px; margin-left: 0px; font-size: 1.1em; }
+ul.footer_icon_box li.footer_icon h3 a{ color: #073563; }
+ul.footer_icon_box li.footer_icon ul{margin: 0px; padding: 0px; clear: both; float: left; width: 100%; list-style-image: none; list-style-type: none; display: block;}
+ul.footer_icon_box li.footer_icon ul li{ color: #333; margin: 0px; padding: 0px; clear: both; float: left; width: 100%; display: block; position: relative; }
+ul.footer_icon_box li.footer_icon ul li a{ color: #333; line-height: 1.68em; float: left; margin: 0px; padding-top: 2px; padding-right: 2px; padding-bottom: 2px; padding-left: 8px; font-size: 12px; }
+ul.footer_icon_box li.footer_icon ul li:before { content:"\f105"; font-family: FontAwesome; font-size: 13px; font-weight: 400; color: #666; float: left; left: 0px; position: absolute; top: 4px; }
+
+
+.footer_nav_box .address_page{ width: 37%; float: left; border-left-width: 1px; border-left-style: solid; border-left-color: #CCC; padding-left: 2%;  z-index: 1; }
+.footer_nav_box .address { border:none; list-style:none; font-style: normal; display: block; clear: both; padding: 0px; width: 100%; margin: 0px; float: left; }
+.footer_nav_box .address li { color: #073563; line-height: 32px; width: 100%; padding: 0px; clear: both; display: block; float: left; font-weight: normal; margin-top: 2px; margin-right: 0px; margin-bottom: 5px; margin-left: 0px; }
+.footer_nav_box .address li a, 
+.footer_nav_box .address li a:link, 
+.footer_nav_box .address li a:visited { color: #666; font-weight: normal; margin: 0px; padding: 0px; }
+.footer_nav_box .address li a:hover { color: #666; }
+.footer_nav_box .address li strong { color: #666; white-space: nowrap; display: block; float: left; font-weight: normal; background-repeat: no-repeat; }
+.footer_nav_box .address li strong.address_title{ background-image: url(../images/location-icon.png); text-indent: -9000px; height: 32px; width: 32px; float: left; }
+.footer_nav_box .address li strong.address_tel_title { background-image: url(../images/phone-icon.png); text-indent: -9000px; height: 32px; width: 32px; float: left;}
+.footer_nav_box .address li strong.address_fax_title { background-image: url(../images/print-icon.png); text-indent: -9000px; height: 32px; width: 32px; float: left;}
+.footer_nav_box .address li strong.address_email_title { background-image: url(../images/email-icon.png); text-indent: -9000px; height: 32px; width: 32px; float: left; margin-right: 5px; }
+.footer_nav_box .address li .address_txt_box { color: #073563; padding-right: 5px; padding-left: 40px; line-height: 1.6em; padding-top: 5px; }
+.footer_nav_box .address li .address_tel_box { color: #073563; padding-right: 5px; padding-left: 40px;line-height: 1.6em;padding-top: 5px;}
+.footer_nav_box .address li .address_fax_box { color: #073563; padding-right: 5px; padding-left: 40px;line-height: 1.6em;padding-top: 5px;}
+.footer_nav_box .address li a.address_email_box{ color: #073563; padding-right: 5px; padding-left: 5px;line-height: 1.6em;padding-top: 5px;}
+.footer_nav_box .address li .address_cmpanyname_title{ font-size: 18px; color: #073563; }
+
+/*網站揭露資訊*/
+.regulatory-information-box{padding: 5px;font-size: 15px;color: rgba(0, 0, 0, 0.65);}
+
+@media screen and (max-width: 1680px){
+.footer_nav_box{ width: 90%;margin-right:5%; margin-left:5%; }
+.footer_box{ width: 90%;margin-right:5%; margin-left:5%; }
+.footer_nav_box{width: 90%;margin-right:5%; margin-left:5%;}
+}
+@media screen and (max-width: 1280px){}
+@media screen and (max-width: 980px){
+.footer_nav_box .footer_icon_page{ width: 100%; float: left;margin-left: 0%; margin-right: 0%;  }
+.footer_nav_box .address_page{ width: 100%; float: left; border-left-width: 0px; border-left-style: solid; border-left-color: #FFF; padding-left: 0%; margin-top: 20px; }
+}
+
+@media screen and (max-width: 736px){
+ul.footer_icon_box li.footer_icon{ float: left; width: 100%; display: block; padding: 0px; clear: both; margin-top: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; }
+}
+
+@media screen and (max-width: 480px){}

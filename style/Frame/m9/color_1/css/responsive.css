@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width: 1680px){
+/*手機選單*/
+.header{ display: none; }
+.page2{ display: none; }
+.nivo-controlNav {  margin-top: -60px;  }
+}
+
+@media screen and (max-width: 1280px){
+/*手機選單*/
+.header{ display: none; }
+.page2{ display: none; }
+
+div.ezmodal-container{ width: 70%!important; }
+
+.advertising_main_box .advertising_txt_box{ width: 88%;}
+.advertising_main_box .advertising_txt_box h2.title{  font-size: 28px;}
+.advertising_main_box .advertising_txt_box p.txt{ font-size: 13px; line-height: 1.3em; width: 70%; }
+
+.btn__lg { border: 2px solid rgba(255, 255, 255, 0.2); font-size: 15px; padding-top: 7px; padding-right: 5px; padding-bottom: 8px; padding-left: 5px; }
+
+}
+
+@media screen and (max-width: 980px){
+/*手機選單*/
+.header{ display: block; }
+.page2{ display: block!important; }
+
+.columns-2{ clear: both; }
+
+div.ezmodal-container{ width: 80%!important;  }
+
+.advertising_main_box .advertising_txt_box h2.title{  font-size: 24px;}
+.advertising_main_box .advertising_txt_box p.txt{ font-size: 13px; line-height: 1.3em; width: 70%; }
+
+.nivo-directionNav a{ display: none!important; }
+.nivo-directionNav{ display: none!important; }
+.nivoSlider:hover .nivo-directionNav a { display: none!important; }
+.nivoSlider a.nivo-nextNav { display: none!important; }
+.nivoSlider a.nivo-prevNav { display: none!important; }
+
+.btn__lg { border: 2px solid rgba(255, 255, 255, 0.2); font-size: 13px; padding-top: 7px; padding-right: 5px; padding-bottom: 8px; padding-left: 5px; }
+.btn__lg:before { right: 10px; font-size: 16px; top: 4px; }
+.btn__lg:after { width: 26px; height: 26px; right: 3px; top: 3px; }
+
+.flex-control-nav {bottom: 10px;}
+.flex-control-paging li a {width: 10px;height: 10px;}
+.flex-direction-nav a { width: 22px; height: 22px;margin: 0px 0 0;}
+.flex-direction-nav a:before {font-size: 20px;}  
+.flex-direction-nav .flex-prev {line-height: 20px;}
+.flex-direction-nav .flex-next {line-height: 20px;}
+
+.push_button_box{ text-align: left; }
+.push_button_box .push_button_xl{ margin-bottom: 20px; padding: 5px; }
+
+.nivo-controlNav {  margin-top: -40px;  }
+.nivo-controlNav a { width:12px; height:12px;}
+
+/*.MagicZoomBigImageCont{ display: none!important;}
+.MagicZoomPup { display: none!important;}*/
+
+}
+@media screen and (max-width: 736px){
+/*手機選單*/
+.header{ display: block; }
+.page2{ display: block!important; }
+
+.advertising_txt_page{ display: none; }
+
+.home_productpic_box{ width: 98%; margin-right: auto; margin-left: auto; }
+.home_news_box ul{width: 100%;}
+.home_news_box li{width: 100%;}
+.home_about_box figure{width: 100%;}
+.home_about_box .about_txt_box{ width: 100%; float: left; padding: 0%; clear: both; }
+
+.clearbox_photo_box{ float: left; clear: both; width: 100%; }
+.clearbox_photo_box figure{ width: 100%; height: auto; margin: 0px; clear: both; float: left; padding: 0px; }
+.clearbox_photo_box figure img{ width: 100%; height: auto; margin: 0px; padding: 0px; clear: both; float: left; }
+
+.page_icon_list li { display: block; float: left; margin-bottom: 10px; }
+
+.nivo-controlNav {  margin-top: -30px;  }
+.nivo-controlNav a { width:10px; height:10px;}
+
+.home_banner_one_box { width: 90%; clear: both; float: left; display: block; margin: 0px; padding: 0px; }
+.home_banner_box li{ width: 100%; float: left; clear: both; margin-bottom: 20px; }
+.home_banner_one_box { width: 100%; clear: both; margin-right: auto; margin-left: auto;}
+
+/*====================== toTop =========================*/
+.toTop {  width: 30px; height: 30px; right: 10px; bottom: 10px; line-height: 30px;  font-size: 20px; }
+}
+@media screen and (max-width: 480px){
+/*手機選單*/
+.header{ display: block; }
+.page2{ display: block!important; }
+
+.advertising_txt_page{ display: none; }
+
+.clearbox_photo_box{ float: left; clear: both; width: 100%; }
+.clearbox_photo_box figure{ width: 100%; height: auto; margin: 0px; clear: both; float: left; padding: 0px; }
+.clearbox_photo_box figure img{ margin: 0px; padding: 0px; clear: both; float: left; }
+
+.nivo-controlNav {  margin-top: -30px;  }
+.nivo-controlNav a { width:10px; height:10px;}
+
+/*====================== toTop =========================*/
+.toTop {  width: 30px; height: 30px; right: 10px; bottom: 10px; line-height: 30px;  font-size: 20px; }
+
+}

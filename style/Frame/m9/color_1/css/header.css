@@ -1,0 +1,193 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*頁面上方header*/
+.top_header_page { width: 100%; z-index: 1000; clear: both; float: left; box-shadow: none; position: relative; background-color: #FFF;transition: all .5s;border-bottom-width: 1px; border-bottom-color: #e3e4df; border-bottom-style: solid; }
+.top_header_box { display: block; clear: both; position: relative; float: left; margin: 0px; padding: 0px; width: 100%; z-index: 1; }
+
+.top_header_page.scroll-fix{
+-webkit-animation-name: animationFade;
+-o-animation-name: animationFade;
+animation-name: animationFade;
+-webkit-animation-duration: 1s;
+-o-animation-duration: 1s;
+animation-duration: 1s;
+-webkit-animation-fill-mode: both;
+-o-animation-fill-mode: both;
+}
+@-webkit-keyframes animationFade {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+@-o-keyframes animationFade {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        -o-transform: none;
+        transform: none;
+    }
+}
+@keyframes animationFade {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        -o-transform: none;
+        transform: none;
+    }
+}
+
+.top_header_page.scroll-fix .top_icon_page{transform: translate3d(0, -100%, 0);position: absolute;}
+
+/*頁面上方公司LOGO和選單*/
+.top_navigation_page{ clear: both; float: left; padding: 0px; width: 100%; margin: 0px; background-color: #FFF; }
+.top_navigation_box{ width: 80%; display: block; margin-right: 10%; margin-left: 10%; clear: both; float: left; }
+.top_navigation_left_box{ float: left; width: 40%;  }
+.top_navigation_right_box{ float: right; width: 60%;  }
+
+/*公司LOGO名稱*/
+.company_page{ float: left; width: 100%;  }
+.company_box { position: relative; width: 100%; z-index: 100; }
+.company_box .logopic { margin: 0px; float: left; position: relative; padding: 0px; display: block;  }
+.company_box .logopic a{ float: left; }
+.company_box .logopic img{ float: left; position: relative; display: block; -moz-transition: 0.8s; -o-transition: 0.8s; -webkit-transition: 0.8s; transition: 0.8s; height: 70px; width: auto; }
+.company_box h2 { color: #000; position: relative; text-align: left; float: left; padding: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 8px; font-size: inherit; }
+.company_box h2 font{ font-size: 22px; line-height: 70px; }
+.company_box .company_name { color: #000; position: relative; text-align: left; float: left; padding: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 8px; font-size: inherit; }
+.company_box .company_name font{ font-size: 22px; line-height: 70px; }
+
+@media screen and (max-width: 1680px){
+	.company_box h2 font{  font-size: 15px; } 
+	.company_box .company_name font{  font-size: 15px; }
+}
+@media screen and (max-width: 1280px){.company_box .logopic img{ height: 60px; width: auto; margin-top: 5px;margin-bottom: 5px; }}
+@media screen and (max-width: 980px){
+.company_page{ width: 100%; clear: none; float: none; position: relative; top: 0px;}
+.company_page .company_box{ clear: both; margin-bottom: 0px; }
+.company_box .logopic{ clear: none; float: none; }
+.company_box .logopic a{ clear: none; float: none; }
+.company_box .logopic img { clear: none; float: none;  margin-right: auto; margin-left: auto; width: auto; height: 60px; margin-top: 0px; }
+.company_box h2{ text-align: center; clear: none; float: none; line-height: normal; margin: 0px; padding: 0px;  }
+.company_box h2 font{ text-align: center; font-size: 15px; line-height: 1.68em; margin: 0px; padding: 0px; display: block; }
+.company_box .company_name{ text-align: center; clear: none; float: none; line-height: normal; margin: 0px; padding: 0px;  }
+.company_box .company_name font{ text-align: center; font-size: 15px; line-height: 1.68em; margin: 0px; padding: 0px; display: block; }
+}
+@media screen and (max-width: 736px){}
+@media screen and (max-width: 480px){
+.company_box .logopic img{ width: auto; height: 60px; }
+
+}
+
+/*頁面上方選單區*/
+.top_icon_page { clear: both; width: 100%; float: left; display: block; margin: 0px; padding: 0px; background-color: #EDEDEB; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #E6E7E2; top:0px;transition: 0.4s ease-out;transform: translate3d(0, 0%, 0);position: relative;z-index: 10001;}
+.top_icon_box { display: block; clear: both; position: relative; right: 0px; float: left; width: 80%; margin-top: 0px; margin-right: 10%; margin-bottom: 0px; margin-left: 10%; padding-top: 5px; padding-right: 0px; padding-bottom: 5px; padding-left: 0px; }
+.top_icon_left_box { float: left; width: 470px;}
+
+/*頁面上方文字*/
+.top_text_messages{ float: left; margin: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 5px; }
+
+/*頁面上方文字選單*/ 
+#topmenuicon { float: right; margin: 0px; padding: 0px; font-size: 15px;}
+#topmenuicon ul { padding: 0px; border:none; list-style:none; white-space: nowrap; margin: 0px; }
+#topmenuicon ul a { display: block; white-space: nowrap; background-color: #004986; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; border: 1px solid #003764; }
+#topmenuicon li { float: left; white-space: nowrap; display: block; margin: 0px; padding-top: 0px; padding-right: 2px; padding-bottom: 0px; padding-left: 2px; }
+#topmenuicon li a, 
+#topmenuicon li a:link, 
+#topmenuicon li a:visited { padding-right: 8px; padding-left: 8px; margin: 0px; display: block; color: #FFF;  }
+#topmenuicon li a:hover { color: #FFF; background-color: #002F55; }
+#topmenuicon li a.system_login{color: #FFF; background-color: #666; }
+#topmenuicon li a.system_login:hover { color: #FFF; background-color: #004986; }
+#topmenuicon li a.system_login:before { content:"\f090"; padding-right: 6px; font-family: "FontAwesome";  font-weight: 400; color: #FFF; }
+@media screen and (max-width: 736px) {
+#topmenuicon .topmenuicon_home,
+#topmenuicon .topmenuicon_shopping_cart,
+#topmenuicon .topmenuicon_OrderSearch,
+#topmenuicon .topmenuicon_login { display: none; }}
+
+/*頁面上方語文下拉選單*/
+#language {font-size: 15px; float: right; padding: 0px; display: block; margin-top: 0px; margin-right: 5px; margin-bottom: 0px; margin-left: 5px; }
+.language {font-size: 15px;  display: block; margin: 0px; padding: 2px; }
+
+/*搜尋*/
+.search_page{ float: right; margin-right: 5px; margin-left: 5px;line-height: 1.68!important;font-size: 15px!important;}
+.search_box{ float: left;  }
+.search_bg{ float: left; background-color: #FFF; padding-top: 0px; padding-right: 4px; padding-bottom: 0px; padding-left: 4px; display: flex;align-items: center;}
+.search_bg i{ color: #000; }
+.search_box .search_txt{ margin: 0px; padding: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px;border: 1px solid transparent;}
+.search_box .search_btn1{ font-size: 15px;cursor: pointer; background-color: #333; float: left; color: #FFF; border: 1px solid #333; display: block; padding-top: 0px; padding-right: 8px; padding-bottom: 0px; padding-left: 8px; margin-right: 4px; border-radius: 0px;}
+.search_box .search_btn2{ font-size: 15px;cursor: pointer; background-color: #666; float: left; color: #CCC; padding-top: 0px; padding-right: 8px; padding-bottom: 0px; padding-left: 8px; border: 1px solid #666;  display: block; margin: 0px;}
+.search_box .search_btn1:hover{ background-color: #004986; color: #FFF; border-top-color: #004986; border-right-color: #004986; border-bottom-color: #004986; border-left-color: #004986; }
+.search_box .search_btn2:hover{ background-color: #000; color: #FFF; }
+
+
+/*頁面上方購物車*/
+.cart_item_page {font-size: 15px; float: right; margin-left: 10px; margin-top: 0px; margin-right: 10px; margin-bottom: 0px;display: block; padding: 0px;padding: 1px; }
+.cart_item { background-image: url(../../images/cart_bg_s.png); background-repeat: no-repeat; background-position: left 2px; float: left; display: block; position: relative; margin: 0px; padding: 0px; width: 100%; clear: both;}
+.cart_item a:link,
+.cart_item a:visited,
+.cart_item a{ text-decoration: none; color: #333; }
+.cart_item strong { padding-left:30px; font-weight: normal; }
+.cart_item .much_total { color: #036; margin: 0px; padding: 0px; }
+.cart_item .items { color: #036; font-weight: bold; margin: 0px; padding: 0px 5px; }
+
+.cart_item:hover .cart_item_list_box { display: block; }
+.cart_item_list_box { width: 300px; background-color: #EBEBEB; position: absolute; display: none; right: 0px; top: 30px; border: 1px solid #CCC; }
+.cart_item_list_box ul { clear: both; float: left; width: 100%; margin: 0px; padding-top: 10px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; }
+.cart_item_box { clear: both; float: left; width: 96%; padding-top: 5px; padding-right: 2%; padding-bottom: 5px; padding-left: 2%; margin: 0px; border-bottom-width: 1px; border-bottom-style: dotted; border-bottom-color: #999; }
+.cart_item_box .photo { float: left; width: 40px; }
+.cart_item_box .txt { float: left; width: 230px; }
+.cart_item_box .edit { float: left; width: 10px; }
+.cart_item_box .txt h2 { clear: both; float: left; width: 100%; margin: 0px; padding: 0px; font-size: 13px; font-weight: normal; line-height: normal; }
+.cart_item_box .txt h2 a { color: #496a01; }
+.cart_item_box .txt h3 { clear: both; float: left; width: 100%; margin: 0px; padding: 0px; font-size: 12px; font-weight: normal; color: #999; }
+.cart_item_box .txt p { clear: both; float: left; width: 100%; margin: 0px; padding: 0px; font-size: 12px; font-weight: normal; color: #333; }
+.cart_item_box .edit a { color: #000; }
+.cart_item_list_box .checkout_bt { width: 100%; clear: both; float: left; background-color: #434343; text-align: center; }
+.cart_item_list_box .checkout_bt a { color: #FFF; }
+
+@media screen and (max-width: 1680px){
+.top_navigation_box{ width: 90%;margin-right:5%; margin-left:5%; }
+.top_icon_box{ width: 90%;margin-right:5%; margin-left:5%; }
+.top_navigation_left_box{ float: left; width: 50%;  }
+.top_navigation_right_box{ float: right; width: 50%;  }
+}
+@media screen and (max-width: 1380px){	
+.top_navigation_left_box{ float: left; width: 40%;  }
+.top_navigation_right_box{ float: right; width: 60%;  }
+}
+@media screen and (max-width: 1280px){
+
+}
+@media screen and (max-width: 980px){
+.top_navigation_box{ width: 100%;margin-right:0%; margin-left:0%; }
+#navigation_page{ display: none; }
+.search_page{ display: none; }
+.top_navigation_left_box{ float: left; width: 100%; text-align: center; }
+.top_header_page{ width: 100%; }
+}
+@media screen and (max-width: 736px){
+#navigation_page{ display: none; }
+.top_header_page{ width: 100%; }
+}
+
+@media screen and (max-width: 480px){
+#navigation_page{ display: none; }
+.top_header_page{width: 100%; }
+}
