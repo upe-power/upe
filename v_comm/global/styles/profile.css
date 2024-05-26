@@ -1,0 +1,101 @@
+.profile {
+    /* flex布局下元素不按比例缩放 */
+    flex-shrink: 0;
+    flex-grow: 0;
+    position: relative;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    margin: 0;
+    background-color: #7591AD;
+    /*border-radius: 20px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex 子元素 纵向排列 */
+    flex-direction: column;
+    /* 增加个阴影 */
+    box-shadow: 0 0 30px #2c2c2c;
+    /* 同意给字体价格颜色 */
+    color: #e8f6fd
+}
+
+.profile .photo {
+    position: absolute;
+    /* 默认为放大 */
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    border-radius: 0%;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.profile .photo::before {
+    /* 通过before增加渐变背景实现遮罩，让文字默认看起来清晰一些 */
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, #333, transparent);
+}
+
+
+
+.profile .photo img {
+    /* 图片高宽均为100% */
+    /* 然后按照cover缩放，裁切长边 */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+/* .profile:hover .introduce {
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+} */
+
+.profile h1 {
+    position: absolute;
+    top: 380px;
+    transition: 0.5s;
+}
+
+/* .profile:hover h1 {
+    position: absolute;
+    top: 160px;
+} */
+
+.profile h2 {
+    margin-top: 240px;
+    width: 80%;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #8ea2b8;
+}
+
+.profile p {
+    width: 90%;
+    /* 段落缩进2个字符大小 */
+    text-indent: 2em;
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+
+.profile a {
+    color: #e8f6fd;
+    text-decoration: none;
+    padding: 12px 36px;
+    border: 1px solid #86a3b3;
+    border-radius: 8px;
+}
+/* 
+.profile a:hover {
+    color: #Fff;
+    background-color: #86a3b3;
+} */

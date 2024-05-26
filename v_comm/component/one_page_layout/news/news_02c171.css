@@ -20,16 +20,16 @@
 .news_02_one_box { width: 100%; clear: both; margin-bottom: 20px; display: inline-block; float: left;  }
 .news_02_one_box .photo_box{ display: block; float: left; width: 100%; overflow: hidden; }
 .news_02_one_box .photo_box img{  background-color: #FFF; height: auto; width: 100%; }
-.news_02_one_box .txt_box{ float: left; display: block; width: 100%; margin-top: 5px; margin-right: 0px; margin-bottom: 5px; margin-left: 0px; padding: 0px; }
+.news_02_one_box .txt_box{ float: left; display: block; width: 100%; margin-top: 5px; margin-right: 0px; margin-bottom: 5px; margin-left: 0px; padding: 0px;background-color: rgba(0, 0, 0, 0.6); color: #fff ;position: absolute;top: 50%;height: 150px;padding: 5px;}
 .news_02_one_box .meta_box{ display: block; float: left; width: 50px; }
 .news_02_one_box .meta{ -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; width: 40px; background-color: #333; color: #FFF; text-align: center; font-size: 13px; font-weight: normal; }
 .news_02_one_box .day{ font-size: 14px; line-height: 1.68em; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #FFF; font-weight: normal; }
 .news_02_one_box .mounth{ -webkit-border-bottom-right-radius: 5px; -webkit-border-bottom-left-radius: 5px; -moz-border-radius-bottomright: 5px; -moz-border-radius-bottomleft: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; font-size: 12px; background-color: #004986; font-weight: normal; }
-.news_02_one_box .title{ padding-right: 3px; color: #333; font-size: 16px; line-height: 1.4em; margin: 0px; padding-top: 0px; padding-bottom: 3px; padding-left: 0px; font-weight: normal; }
-.news_02_one_box .title a{ color: #000; }
+.news_02_one_box .title{ padding-right: 3px; color: #fff; font-size: 16px; line-height: 1.4em; margin: 0px; padding-top: 0px; padding-bottom: 3px; padding-left: 0px; font-weight: normal; }
+.news_02_one_box .title a{ color: #fff; }
 .news_02_one_box .title a:hover { color: #333; }
 .news_02_one_box .txt{ padding-right: 3px; padding-left: 0px; color: #666; font-size: 13px; line-height: 1.3em; margin-top: 5px; margin-bottom: 5px; padding-top: 0px; padding-bottom: 0px; }
-.news_02_one_box .date{ padding-right: 3px; padding-left: 0px; color: #004986; font-size: 15px; line-height: 1.3em; }
+.news_02_one_box .date{ padding-right: 3px; padding-left: 0px; color: #fff; font-size: 15px; line-height: 1.3em; }
 .news_02_one_box .date:before{ content:"\f017"; font-family: FontAwesome; color: #999; margin-right: 5px; font-size: 15px; font-weight: normal; }
 
 .news_02_page .title_more_page{ right: 60px; bottom: 0px; top: -10px; }
